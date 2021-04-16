@@ -33,7 +33,6 @@ variable "create_default_stage_api_mapping" {
 #   type        = bool
 #   default     = false
 # }
-
 variable "create_api_domain_name" {
   description = "Whether to create API domain name resource"
   type        = bool
@@ -147,7 +146,6 @@ variable "default_stage_tags" {
 
 #####
 # default stage API mapping
-
 ####
 # domain name
 variable "domain_name" {
